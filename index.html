@@ -12,6 +12,9 @@
       <link rel="icon" href="./images/unicorn-16249_128.gif" type="image/x-icon">
       <link rel="apple-touch-icon" href="./images/apple-touch-icon.png">
       <link rel="stylesheet" href="./css/bootstrap.min.css">
+      <link rel="stylesheet" href="./css/bootstrap-icons.css">
+      <link rel="stylesheet" href="./css/aos.css">
+      <link rel="stylesheet" href="./css/glightbox.min.css">
       <link rel="stylesheet" href="./css/app.css">
 
 
@@ -266,7 +269,7 @@
         </section>
         <section id="portfolio">
             <div class="container mt-5">
-                <h2 class="text-center mb-5">Design & Video Protfolio</h2>
+                <h2 class="text-center mb-5" data-aos="fade-up">Design & Video Protfolio</h2>
                 <input type="text" id="searchInput" class="form-control" placeholder="검색어를 입력하세요.">
                 <!-- 분류 버튼 -->
                 <div class="text-center">
@@ -300,6 +303,188 @@
                     <div class="col-lg-4 col-md-6 col-sm-12 portfolio-item" data-category="figma">
                         <img src="./images/tv-8760950_1280.png" alt="피그마 2" class="img-fluid" data-bs-toggle="modal" data-bs-target="#figmaModal2">
                         <h4 class="text-center mt-2">피그마 프로젝트 2</h4>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="tabs" class="tabs my-5 section">
+            <div class="container section-title" data-aos="fade-up">
+                <h2 class="text-center">Departments</h2>
+                <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+            </div>
+            <div class="container" data-aos="fade-up" data-aos-delay="100">
+                <div class="row">
+                    <div class="col-lg-2">
+                        <ul class="nav nav-tabs flex-column">
+                            <li class="nav-item"><a class="nav-link active show" data-bs-toggle="tab" href="#tabs-tab-1">상세 페이지 1</a></li>
+                            <li class="nav-item"><a class="nav-link" data-bs-toggle="tab" href="#tabs-tab-2">상세 페이지 2</a></li>
+                            <li class="nav-item"><a class="nav-link" data-bs-toggle="tab" href="#tabs-tab-3">상세 페이지 3</a></li>
+                            <li class="nav-item"><a class="nav-link" data-bs-toggle="tab" href="#tabs-tab-4">상세 페이지 4</a></li>
+                            <li class="nav-item"><a class="nav-link" data-bs-toggle="tab" href="#tabs-tab-5">상세 페이지 5</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-10 mt-5 mt-lg-0">
+                        <div class="tab-content">
+                            <div class="tab-pane active show" id="tabs-tab-1">
+                                <div class="row">
+                                    <div class="col-lg-8 details order-2 order-lg-1">
+                                        <h3>상세 페이지 설명 1</h3>
+                                        <P class="fst-italic">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p> <p> Doloremque temporibus dolore architecto sit modi veritatis molestias veniam recusandae itaque culpa fuga et enim explicabo labore, nobis sequi. Quidem, culpa voluptatem!</P>
+                                    </div>
+                                    <div class="col-lg-4 text-center order-1 order-lg-2">
+                                        <a href="./images/ai-generated-9494063_1280.jpg"><img src="./images/ai-generated-9494063_1280.jpg" class="img-fluid" alt=""></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="tabs-tab-2">
+                                <div class="row">
+                                    <div class="col-lg-8 details order-2 order-lg-1">
+                                        <h3>상세 페이지 설명 2</h3>
+                                        <P class="fst-italic">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p> <p> Doloremque temporibus dolore architecto sit modi veritatis molestias veniam recusandae itaque culpa fuga et enim explicabo labore, nobis sequi. Quidem, culpa voluptatem!</P>
+                                    </div>
+                                    <div class="col-lg-4 text-center order-1 order-lg-2">
+                                        <img src="./images/avocado-9563037_1280.png" class="img-fluid" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="tabs-tab-3">
+                                <div class="row">
+                                    <div class="col-lg-8 details order-2 order-lg-1">
+                                        <h3>상세 페이지 설명 3</h3>
+                                        <P class="fst-italic">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p> <p> Doloremque temporibus dolore architecto sit modi veritatis molestias veniam recusandae itaque culpa fuga et enim explicabo labore, nobis sequi. Quidem, culpa voluptatem!</P>
+                                    </div>
+                                    <div class="col-lg-4 text-center order-1 order-lg-2">
+                                        <img src="./images/hill-9026381_1280.png" class="img-fluid" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="tabs-tab-4">
+                                <div class="row">
+                                    <div class="col-lg-8 details order-2 order-lg-1">
+                                        <h3>상세 페이지 설명 4</h3>
+                                        <P class="fst-italic">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p> <p> Doloremque temporibus dolore architecto sit modi veritatis molestias veniam recusandae itaque culpa fuga et enim explicabo labore, nobis sequi. Quidem, culpa voluptatem!</P>
+                                    </div>
+                                    <div class="col-lg-4 text-center order-1 order-lg-2">
+                                        <img src="./images/tv-8760950_1280.png" class="img-fluid" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="tabs-tab-5">
+                                <div class="row">
+                                    <div class="col-lg-8 details order-2 order-lg-1">
+                                        <h3>상세 페이지 설명 5</h3>
+                                        <P class="fst-italic">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p> <p> Doloremque temporibus dolore architecto sit modi veritatis molestias veniam recusandae itaque culpa fuga et enim explicabo labore, nobis sequi. Quidem, culpa voluptatem!</P>
+                                    </div>
+                                    <div class="col-lg-4 text-center order-1 order-lg-2">
+                                        <img src="./images/ai-generated-9494063_1280.jpg" class="img-fluid" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--
+        <section id="tab1 my-5">
+            <div class="container section-title" data-aos="fade-up">
+                <h2 class="text-center">Departments</h2>
+                <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+            </div>
+            <div class="container" data-aos="fade-up" data-aos-delay="100">
+                <div class="row">
+                    <div class="col-lg-3">
+                        <ul class="nav nav-tabs flex-column">
+                            <li class="nav-item"><a class="nav-link" data-bs-toggle="tab" href="#tabs-tab-6">상세 페이지 6</a></li>
+                            <li class="nav-item"><a class="nav-link" data-bs-toggle="tab" href="#tabs-tab-7">상세 페이지 7</a></li>
+                            <li class="nav-item"><a class="nav-link" data-bs-toggle="tab" href="#tabs-tab-8">상세 페이지 8</a></li>
+                            <li class="nav-item"><a class="nav-link" data-bs-toggle="tab" href="#tabs-tab-9">상세 페이지 9</a></li>
+                            <li class="nav-item"><a class="nav-link" data-bs-toggle="tab" href="#tabs-tab-10">상세 페이지 10</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-9 mt-5 mt-lg-0">
+                        <div class="tab-content">
+                            <div class="tab-pane" id="tabs-tab-6">
+                                <div class="row">
+                                    <div class="col-lg-8 details order-2 order-lg-1">
+                                        <h3>상세 페이지 설명 6</h3>
+                                        <P class="fst-italic">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p> <p> Doloremque temporibus dolore architecto sit modi veritatis molestias veniam recusandae itaque culpa fuga et enim explicabo labore, nobis sequi. Quidem, culpa voluptatem!</P>
+                                    </div>
+                                    <div class="col-lg-4 text-center order-1 order-lg-2">
+                                        <img src="./images/ai-generated-9494063_1280.jpg" class="img-fluid" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="tabs-tab-7">
+                                <div class="row">
+                                    <div class="col-lg-8 details order-2 order-lg-1">
+                                        <h3>상세 페이지 설명 7</h3>
+                                        <P class="fst-italic">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p> <p> Doloremque temporibus dolore architecto sit modi veritatis molestias veniam recusandae itaque culpa fuga et enim explicabo labore, nobis sequi. Quidem, culpa voluptatem!</P>
+                                    </div>
+                                    <div class="col-lg-4 text-center order-1 order-lg-2">
+                                        <img src="./images/avocado-9563037_1280.png" class="img-fluid" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="tabs-tab-8">
+                                <div class="row">
+                                    <div class="col-lg-8 details order-2 order-lg-1">
+                                        <h3>상세 페이지 설명 8</h3>
+                                        <P class="fst-italic">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p> <p> Doloremque temporibus dolore architecto sit modi veritatis molestias veniam recusandae itaque culpa fuga et enim explicabo labore, nobis sequi. Quidem, culpa voluptatem!</P>
+                                    </div>
+                                    <div class="col-lg-4 text-center order-1 order-lg-2">
+                                        <img src="./images/hill-9026381_1280.png" class="img-fluid" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="tabs-tab-9">
+                                <div class="row">
+                                    <div class="col-lg-8 details order-2 order-lg-1">
+                                        <h3>상세 페이지 설명 9</h3>
+                                        <P class="fst-italic">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p> <p> Doloremque temporibus dolore architecto sit modi veritatis molestias veniam recusandae itaque culpa fuga et enim explicabo labore, nobis sequi. Quidem, culpa voluptatem!</P>
+                                    </div>
+                                    <div class="col-lg-4 text-center order-1 order-lg-2">
+                                        <img src="./images/tv-8760950_1280.png" class="img-fluid" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="tabs-tab-10">
+                                <div class="row">
+                                    <div class="col-lg-8 details order-2 order-lg-1">
+                                        <h3>상세 페이지 설명 10</h3>
+                                        <P class="fst-italic">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p> <p> Doloremque temporibus dolore architecto sit modi veritatis molestias veniam recusandae itaque culpa fuga et enim explicabo labore, nobis sequi. Quidem, culpa voluptatem!</P>
+                                    </div>
+                                    <div class="col-lg-4 text-center order-1 order-lg-2">
+                                        <img src="./images/ai-generated-9494063_1280.jpg" class="img-fluid" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        -->
+        <section id="about" class="about section my-5">
+            <div class="container section-title text-center" data-aos="fade-up">
+                <h2>About Us</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Culpa, deserunt fuga?</p>
+            </div>
+            <div class="container">
+                <div class="row gy-4">
+                    <div class="col-lg-6 position-relative align-self-start" data-aos="fade-up" data-aos-delay="100">
+                        <img src="./images/tv-8760950_1280.png" class="img-fluid" alt="">
+                        <a href="https://www.youtube.com/watch?v=0F1oS_1kyg0" class="glightbox pulsating-play-btn">영상</a>                        
+                    </div>
+                    <div class="col-lg-6 content" data-aos="fade-up" data-aos-delay="200">
+                        <h3>Hello Centum</h3>
+                        <p class="fst-italic">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid soluta dolorem ad excepturi aliquam! Incidunt minima quas debitis. Harum asperiores ullam ducimus repudiandae delectus, culpa quidem ab mollitia voluptates dolor!</p>
+                        <ul>
+                            <li><i class="bi bi-check2-all"></i><span>Lorem ipsum dolor, sit amet consectetur adipisicing.</span></li>
+                            <li><i class="bi bi-check2-all"></i><span>Lorem ipsum dolor, sit amet consectetur adipisicing.</span></li>
+                            <li><i class="bi bi-check2-all"></i><span>Lorem ipsum dolor, sit amet consectetur adipisicing.</span></li>
+                        </ul>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae neque corporis sed quae excepturi exercitationem! Possimus quisquam reprehenderit molestiae tempora facilis, repellat numquam eum iste dicta? Officia dolor enim deleniti!</p>
                     </div>
                 </div>
             </div>
@@ -404,6 +589,8 @@
     </footer>
 
     <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/glightbox.min.js"></script>
+    <script src="./js/aos.js"></script>
     <script src="./js/app.js"></script>
 </body>
 </html>
